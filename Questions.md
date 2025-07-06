@@ -143,4 +143,152 @@
   GitHub occasionally offers early access to upcoming features, which can be enabled from your account settings.
 
 ---
+---
+## Domain 3: Collaboration Features
+
+### Issues
+
+- **Describe how to link a PR to an issue**  
+  Use keywords like `Fixes #issue_number` or `Closes #issue_number` in the PR description to auto-link and close the issue on merge.
+
+- **Describe how to create an issue**  
+  Go to the “Issues” tab and click “New issue”; fill in the title and description.
+
+- **Difference between issue, discussion, and pull request**  
+  - **Issue**: Bug/feature/task tracker  
+  - **Discussion**: Open-ended conversation  
+  - **Pull Request**: Proposed code changes
+
+- **Explain how to create a branch from an issue**  
+  Use the “Create branch” option linked to the issue or do it manually using Git.
+
+- **Identify how to assign issues**  
+  Use the sidebar on an issue to assign users.
+
+- **Describe how to search and filter issues**  
+  Use filters like `is:open is:issue` or labels, milestones, and assignees in the search bar.
+
+- **Describe how to pin an issue**  
+  Organization owners/admins can pin issues to keep them at the top of the issue list.
+
+- **Explain basic issue management**  
+  Includes labeling, assigning, commenting, closing, locking, and converting to discussion or PR.
+
+- **Difference between issue templates and issue forms**  
+  - **Templates**: Markdown-based default issue formats  
+  - **Forms**: Structured issue creation using YAML with dropdowns, required fields, etc.
+
+- **Explain how to use keywords in issues**  
+  Use action keywords like `fix`, `close`, `resolve` to auto-close linked issues in PRs.
+
+---
+
+### Pull Requests
+
+- **Describe a pull request**  
+  A request to merge code changes from one branch to another.
+
+- **Explain how to create a new pull request**  
+  Go to the “Pull Requests” tab → “New pull request” → select branches and describe the changes.
+
+- **Describe the `base` and `compare` branches in a PR**  
+  `base`: branch you want to merge into; `compare`: branch with changes.
+
+- **Explain relationship of commits on a PR**  
+  Commits are the individual changes grouped in a PR; each commit shows a snapshot of progress.
+
+- **Describe draft pull requests**  
+  Draft PRs signal work-in-progress that isn't ready for review yet.
+
+- **Purpose of pull request tabs**  
+  - **Conversation**: General discussion  
+  - **Commits**: Commit list  
+  - **Checks**: CI/CD results  
+  - **Files changed**: File-level changes
+
+- **Identify how to link activity in PR**  
+  Mention commits, issues, or users using `#`, `@`, or commit hashes.
+
+- **Explain different PR statuses**  
+  - Open  
+  - Closed  
+  - Merged  
+  - Draft  
+  - Approved/requested changes
+
+- **Recognize how to comment on specific lines of code**  
+  In the “Files changed” tab, click the `+` beside a line to add inline comments.
+
+- **Describe code review with a CODEOWNERS file**  
+  Specifies users or teams who must review PRs to specific files or directories.
+
+- **Options for providing a code review**  
+  - **Comment**: Leave feedback  
+  - **Approve**: Accept the changes  
+  - **Request changes**: Ask for improvements  
+  - **Suggest changes**: Propose edits directly
+
+---
+
+### Discussions
+
+- **Difference between discussions and issues**  
+  Discussions are for open-ended or community conversations; issues track specific work/tasks.
+
+- **Options available in discussions**  
+  - Announcements  
+  - Q&A  
+  - Show and Tell  
+  - Polls  
+  - Ideas
+
+- **How to mark a comment as an answer**  
+  Click the “Mark as answer” button on a reply in a Q&A discussion.
+
+- **How to convert a discussion to an issue**  
+  Use the “Convert to issue” option from the discussion’s sidebar or comment menu.
+
+- **How to pin a discussion**  
+  Maintainers/admins can pin discussions to appear at the top.
+
+---
+
+### Notifications
+
+- **How to manage notification subscriptions**  
+  Use the “Watch” button on repos and issues to set notification levels.
+
+- **How to subscribe to notification threads**  
+  Click “Subscribe” on a specific issue, PR, or discussion.
+
+- **How to find threads where you're @mentioned**  
+  Go to your Notifications page → filter by “Participating” or “Mentioned”.
+
+- **Notification filtering options**  
+  Filter by reason (mention, author, subscribed), repo, type (issue, PR), or custom labels.
+
+- **Notification configuration options**  
+  Customize delivery method (web, email, mobile) and frequency (immediate, daily digest, etc.)
+
+---
+
+### Gists, Wikis, and GitHub Pages
+
+- **How to create a GitHub Gist**  
+  Go to gist.github.com → create a new snippet of code/text and save it.
+
+- **How to fork and clone a gist**  
+  Click “Fork” on a gist to copy it; use `git clone` with the gist URL to download locally.
+
+- **Explain GitHub Wiki pages**  
+  A built-in documentation tool for repos with pages linked like a wiki.
+
+- **How to create, edit, and delete wiki pages**  
+  Use the Wiki tab on a repo → “New Page” to create → edit or delete using the UI.
+
+- **Explain the visibility of wiki pages**  
+  Follows repo visibility: if repo is public/private, wiki inherits that.
+
+- **Describe GitHub Pages**  
+  A feature to host static websites directly from a repo (typically from `docs/` or root).
 
