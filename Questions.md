@@ -101,3 +101,46 @@
   Use push settings, mute threads, and access inbox to manage activity on the go.
 
 ---
+---
+## Domain 2: Working with GitHub Repositories
+
+### Understanding GitHub Repositories
+
+- **Describe the components of a good README and recommended repository files**  
+  A good README includes project description, setup instructions, usage, and contribution guidelines. Key files include:
+  - `LICENSE`: Defines legal use of the code.
+  - `CONTRIBUTING`: Guidelines for contributors.
+  - `CODEOWNERS`: Specifies default code reviewers.
+
+- **Explain basic repository navigation**  
+  Users can navigate code, commits, branches, issues, pull requests, and settings through the repo’s tabs on GitHub.
+
+- **Explain how to create a new repository**  
+  Click "New" under the Repositories tab, choose a name, select visibility, and initialize with a README if needed.
+
+- **Describe repository templates**  
+  Templates allow you to create a new repository with pre-defined files, structure, and settings.
+
+- **Describe the different features to maintaining a repository**  
+  Includes branching, issues, PRs, labels, discussions, actions, insights, and wikis.
+
+- **Describe how to clone a repository**  
+  Use `git clone <URL>` to copy a repository locally. You can also use GitHub Desktop or the Code dropdown.
+
+- **Describe how to create a new branch**  
+  Use GitHub UI or `git checkout -b <branch-name>` to create and switch to a new branch.
+
+- **Explain how to add files to a repository**  
+  Add files via upload on GitHub, through GitHub Desktop, or using `git add`, `commit`, and `push`.
+
+- **Identify how to view repository insights**  
+  The “Insights” tab shows traffic, contributors, commits, and community standards.
+
+- **Explain how to save a repository with stars**  
+  Click the ⭐ button at the top-right of the repository page to bookmark and support it.
+
+- **Explain feature previews**  
+  GitHub occasionally offers early access to upcoming features, which can be enabled from your account settings.
+
+---
+
