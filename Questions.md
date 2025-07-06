@@ -292,3 +292,62 @@
 - **Describe GitHub Pages**  
   A feature to host static websites directly from a repo (typically from `docs/` or root).
 
+---
+---
+## Domain 4: Modern Development
+
+### GitHub Actions
+
+- **Describe GitHub Actions (basic understanding)**  
+  GitHub Actions is a CI/CD tool that automates workflows such as building, testing, and deploying code.
+
+- **Explain where you can use GitHub Actions within GitHub (general event types)**  
+  You can trigger workflows on events like `push`, `pull_request`, `issue`, `schedule`, `release`, and more.
+
+- **Explain where you can find existing GitHub Actions**  
+  You can explore prebuilt Actions in the GitHub Marketplace: [https://github.com/marketplace/actions](https://github.com/marketplace/actions)
+
+---
+
+### GitHub Copilot
+
+- **Describe GitHub Copilot**  
+  GitHub Copilot is an AI-powered coding assistant that suggests code and functions in real-time inside your IDE.
+
+- **Describe the difference between Copilot for Individuals and Copilot for Business**  
+  - **Individuals**: Personal use with basic completion and suggestions.  
+  - **Business**: Adds team policies, usage analytics, and enterprise-level compliance.
+
+- **Explain how to get started using GitHub Copilot**  
+  Install the Copilot extension (e.g., for VS Code), sign in with GitHub, and activate the subscription.
+
+---
+
+### GitHub Codespaces
+
+- **Describe GitHub Codespaces**  
+  Cloud-based development environments hosted by GitHub that let you code without setting up your local machine.
+
+- **Identify how to start a GitHub Codespace**  
+  Click the **Code** dropdown in a repo → click **Codespaces** tab → **Create codespace** on the desired branch.
+
+- **Describe the Codespace lifecycle**  
+  A codespace is created, paused when idle, resumed later, and can be deleted when no longer needed.
+
+- **Describe different customizations you can personalize with GitHub Codespaces**  
+  Customize with `devcontainer.json` files to set up environment (tools, extensions, settings).
+
+- **Recognize how to add and configure dev containers**  
+  Use the **dev container specification** to define Docker-based development environments with specific tooling.
+
+- **Identify how to share a deep link to a GitHub Codespace**  
+  Use the browser URL of an active codespace session to share direct access (if permissions allow).
+
+- **Explain how to use the github.dev editor**  
+  Press `.` in a repo or use `github.dev/<user>/<repo>` to open a lightweight web-based editor.
+
+- **Explain differences between github.dev editor and GitHub Codespaces**  
+  - **github.dev**: Lightweight, no backend processing or terminals  
+  - **Codespaces**: Full cloud-based development environment with terminal and compute resources
+
+---
