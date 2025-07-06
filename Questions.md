@@ -351,3 +351,46 @@
   - **Codespaces**: Full cloud-based development environment with terminal and compute resources
 
 ---
+---
+## Domain 5: Project Management
+
+### Manage Your Work with GitHub Projects
+
+- **Describe GitHub Projects**  
+  GitHub Projects is a planning and tracking tool integrated into GitHub, used to organize issues, pull requests, and notes in a customizable view.
+
+- **Explain the layout options for projects**  
+  Projects offer layout options like table, board (Kanban-style), and roadmap views to visualize and manage tasks.
+
+- **Describe the configuration options for projects**  
+  Projects can be configured with custom fields, filters, views, and workflows to fit different team needs.
+
+- **Explain the difference between projects and projects classic**  
+  - **Projects**: Built using GitHub's flexible, spreadsheet-like views with advanced filters and workflows  
+  - **Projects (classic)**: The older Kanban-style board tied to a single repo
+
+- **Explain the use of labels**  
+  Labels categorize and tag issues or pull requests, helping with filtering, prioritizing, and organizing tasks.
+
+- **Explain the use of milestones**  
+  Milestones group issues and pull requests by goals, often used to track progress toward a version or deadline.
+
+- **Describe how to use and create template repos**  
+  Repositories can be marked as templates to allow others to generate new repos with the same structure and files.
+
+- **Explain how to create, edit, and delete saved replies**  
+  Saved replies are prewritten responses that can be reused in issues and PRs. Set them up under your GitHub settings > Saved replies.
+
+- **Describe the benefits of using a saved reply**  
+  Increases efficiency and ensures consistency when responding to common questions or requests.
+
+- **Recognize how to add assignees to issues and pull requests**  
+  Use the sidebar in an issue or pull request to assign collaborators responsible for the task.
+
+- **Explain how to use project workflows**  
+  Workflows automate the movement or status of items in a project board, such as moving issues when PRs are merged.
+
+- **Describe project insights**  
+  Project insights provide visual analytics and reports about item progress, statuses, and team contributions.
+
+---
