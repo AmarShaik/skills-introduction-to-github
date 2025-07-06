@@ -394,3 +394,50 @@
   Project insights provide visual analytics and reports about item progress, statuses, and team contributions.
 
 ---
+---
+## Domain 6: Privacy, Security, and Administration
+
+### Authentication and Security
+
+- **Explain how to secure your account with 2FA**  
+  Enable two-factor authentication (2FA) in your GitHub account settings to add an extra layer of security using SMS, an authenticator app, or a security key.
+
+- **Describe the different access permissions**  
+  GitHub permissions vary by role:
+  - **Read**: View code and issues  
+  - **Write**: Push changes, create branches  
+  - **Admin**: Manage repo settings and access  
+  - **Maintain** and **Triage**: Granular permissions for maintenance and triage roles
+
+- **Explain EMUs (Enterprise Managed Users)**  
+  EMUs are user accounts managed through a company’s identity provider (like Azure AD) to enforce policies and centralized access control across GitHub Enterprise.
+
+---
+
+### GitHub Administration
+
+- **Explain how to enable and disable features**  
+  Repo admins can toggle features like Issues, Wikis, Discussions, and GitHub Pages from the repository's Settings tab.
+
+- **Recognize repository permission levels**  
+  Permissions include Read, Triage, Write, Maintain, and Admin. Each level grants specific rights to manage code and settings.
+
+- **Identify the options for repository visibility**  
+  A repository can be:
+  - **Public**: Visible to everyone  
+  - **Private**: Visible to selected users  
+  - **Internal** (Enterprise): Visible to org members only
+
+- **Explain repository privacy setting options**  
+  Includes settings like branch protection rules, CODEOWNERS for review enforcement, and required status checks before merging.
+
+- **Describe the main features and options in the Security tab**  
+  Includes Dependabot alerts, secret scanning, code scanning, and security advisories for managing vulnerabilities.
+
+- **Define repository insights**  
+  Repository insights provide data on traffic, commits, contributors, forks, clones, and community health metrics.
+
+- **Explain how to manage collaborators**  
+  Go to repo settings → Manage access → Add/remove users and assign roles/permissions as needed.
+
+---
